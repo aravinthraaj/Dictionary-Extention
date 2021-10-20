@@ -1,10 +1,10 @@
-console.log("Here we goooooooooooo background")
+
 
 
 
 chrome.runtime.onMessage.addListener(receiver)
 
-window.word = "test"
+window.word = ""
 
 function receiver(request, sender, sendResponse){
   // console.log(request);
